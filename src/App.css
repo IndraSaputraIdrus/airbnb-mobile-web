@@ -1,0 +1,101 @@
+.app {
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+
+.nav img {
+  display: block;
+}
+
+.hero > .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image {
+  max-width: 100%;
+  padding: 30px 40px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: 36px;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.hero__text {
+  width: 320px;
+  font-weight: 300;
+  color: #222;
+  margin-bottom: 50px;
+}
+
+.cards .container {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 175px;
+  flex: 0 0 auto;
+  position: relative;
+  font-size: 12px;
+}
+
+.card__image {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 236px;
+  object-fit: cover;
+}
+
+.card__status {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: white;
+  padding: 2px 4px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.card__rating {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.card__rating span {
+  color: #918e9b;
+}
+
+.card__description {
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.card__price {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.card__price span {
+  font-weight: 500;
+}
